@@ -39,9 +39,7 @@ Hyperparameter tuning was performed on KNN and Random Forest. The metric used fo
 | Accuracy | 0.524 | 0.00771   | KNN            |
 | Accuracy | 0.582 | 0.00669   | Random Forest  |
 
-## Conclusion
-
-Though the accuracy is higher than random prediction, the likelihood of correctly classifying each individual genre is fairly different. This could be due to actual underlying differences between the genres. Some genres might be more distinctive than others, and some might be harder to distinguish.
+## Limitation and Conclusion
 
 A limitation of the model is that it can only predict songs that belong to a single genre. However, in reality, a song can belong to multiple genres (e.g., pop and R&B) simultaneously, especially with the evolution of the music industry in recent years. In the near future, more genres will be mixed together to create new genres, and the distinctive characteristics of one genre will become less noticeable. Hence, genre classification will become even more challenging.
 
